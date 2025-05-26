@@ -1,0 +1,15 @@
+system:
+  llm:
+    model: "gemini-2.0-flash"
+    temperature: 0.7
+    max_tokens: 1000
+  linear:
+    url: "https://linear.app/api/graphql"
+
+reaction_mentions:
+  - reaction: "watanabe_yarimasu"
+    team_id: "Architecture"
+    mention: "<@U07KG4AR98E>"
+  - reaction: "test_"
+    team_id: "Architecture"
+    mention: "<@U07KG4AR98E>"
